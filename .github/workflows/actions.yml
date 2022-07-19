@@ -5,6 +5,7 @@ on:
 #   run on every first mints in each hour
 #   however the trigger does not work :(
 #    - cron: "0/5 * * * *"
+
   [ pull_request ]
 
 jobs:
