@@ -1,11 +1,11 @@
 name: Actions Workflow
 
 on:
-  schedule:
+#  schedule:
 #   run on every first mints in each hour
 #   however the trigger does not work :(
 #    - cron: "0/5 * * * *"
-#  [ push, pull_request ]
+  [ pull_request ]
 
 jobs:
   run-github-actions:
