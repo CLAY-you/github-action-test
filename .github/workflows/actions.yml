@@ -3,7 +3,8 @@ name: Actions Workflow
 on:
   schedule:
 #   run on every first mints in each hour
-    - cron: "0/5 * * * *"
+#   however the trigger does not work :(
+#    - cron: "0/5 * * * *"
 #  [ push, pull_request ]
 
 jobs:
