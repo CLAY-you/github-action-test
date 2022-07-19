@@ -9,6 +9,6 @@ jobs:
       - name: echo a string
         run: echo "Hello World"
       - name: multiple script
-        run:
-          node --version 
+        run: |
+          node --version
           npm --version
