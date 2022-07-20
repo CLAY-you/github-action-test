@@ -6,7 +6,8 @@ on:
 #   however the trigger does not work :(
 #    - cron: "0/5 * * * *"
 
-  [ pull_request ]
+  pull_request:
+    types: [closed, assigned, opened, reopened]
 
 jobs:
   run-github-actions:
